@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.yang</groupId>
+  <artifactId>wordbreak</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>wordbreak</name>
+  <description>break the sentence in individual dictionary words</description>
+  
+  <properties>
+    <java.version>1.8</java.version>
+  </properties>
+  
+  <dependencies>
+    <dependency>
+    	<groupId>org.projectlombok</groupId>
+    	<artifactId>lombok</artifactId>
+    	<version>1.16.20</version>
+	</dependency>
+	
+	<dependency>
+    	<groupId>org.apache.commons</groupId>
+    	<artifactId>commons-lang3</artifactId>
+    	<version>3.0</version>
+	</dependency>
+	
+	<dependency>
+     	<groupId>commons-beanutils</groupId>
+     	<artifactId>commons-beanutils</artifactId>
+     	<version>1.9.3</version>
+ 	</dependency>
+ 	
+ 	<dependency>
+     	<groupId>junit</groupId>
+      	<artifactId>junit</artifactId>
+      	<version>4.8.2</version>
+      	<scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
